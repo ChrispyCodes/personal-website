@@ -5,8 +5,8 @@ export const projects = [
       "Using React, MUI, and rapidAPI I built a youtube clone with searching & filtering, a channel page, and a video player.",
     image: "/images/footube.png",
     tags: ["React", "MUI", "rapidAPI"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/ChrispyCodes/footube_youtube_clone",
+    visit: "https://footube.netlify.app/",
     id: 0,
   },
   {
