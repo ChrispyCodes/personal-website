@@ -10,13 +10,13 @@ export const projects = [
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Youtube-mp3-converter",
     description:
-      "While building And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Converts youtube url into downloadable mp3 file. Doesn't work for all videos, try a official music video",
+    image: "/images/youtube-mp3.png",
+    tags: ["Node.js", "Express"],
+    source: "https://github.com/ChrispyCodes/youtube-mp3-converter",
+    visit: "https://cg-youtubemp3converter.herokuapp.com/",
     id: 1,
   },
   {
