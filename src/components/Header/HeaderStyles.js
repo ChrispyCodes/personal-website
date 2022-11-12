@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
@@ -58,6 +58,7 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  padding: 0 2rem;
   &:hover {
     color: #fff;
     opacity: 1;

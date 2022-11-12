@@ -23,13 +23,8 @@ const Footer = () => {
           <LinkItem href="mailto:christopher.gaynor6+portfolio@gmail.com">
             christopher.gaynor6@gmail.com
           </LinkItem>
-          <LinkItem>Software Engineer </LinkItem>
         </LinkColumn>
       </LinkList>
-
-      {/* <CompanyContainer>
-          <Slogan></Slogan>
-        </CompanyContainer> */}
     </FooterWrapper>
   );
 };

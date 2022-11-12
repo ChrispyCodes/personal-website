@@ -45,7 +45,7 @@ export const TimeLineData = [
   { year: 2019, text: "Hired as a full-stack developer" },
   { year: 2020, text: "Worked as a full-stack developer" },
   { year: 2021, text: "Worked as a full-stack developer" },
-  { year: 2022, text: "Figuring out whats next" },
+  { year: 2022, text: "Focusing on front-end" },
 ];
 
 export const AccomplishmentsData = [
