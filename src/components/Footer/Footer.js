@@ -20,25 +20,16 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:christopher.gaynor+portfolio@gmail.com">
-            christopher.gaynor@gmail.com
+          <LinkItem href="mailto:christopher.gaynor6+portfolio@gmail.com">
+            christopher.gaynor6@gmail.com
           </LinkItem>
-          <LinkItem>Software Engineer</LinkItem>
+          <LinkItem>Software Engineer </LinkItem>
         </LinkColumn>
       </LinkList>
-      <SocialIconsContainer>
-        {/* <CompanyContainer>
+
+      {/* <CompanyContainer>
           <Slogan></Slogan>
         </CompanyContainer> */}
-        <SocialContainer>
-          <SocialIcons href="https://github.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

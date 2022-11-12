@@ -1,6 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 import { DiYii } from "react-icons/di";
 import { GiAbstract107 } from "react-icons/gi";
 
@@ -53,6 +59,9 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons href="https://linkedin.com">
         <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://twitter.com/Chrisg0o">
+        <AiOutlineTwitter size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

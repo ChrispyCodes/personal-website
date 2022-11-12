@@ -14,7 +14,9 @@ const Hero = () => (
       <SectionTitle main center>
         Hey, <br /> I'm <span style={{ color: "#9cc9e3" }}>Chris</span> &#9996;
       </SectionTitle>
-      <SectionText>This is my Development Portfolio</SectionText>
+      <SectionText>
+        A Software Engineer that likes to build things with modern tools.
+      </SectionText>
       <Button onClick={() => (window.location = "https://google.com")}>
         Learn More
       </Button>
