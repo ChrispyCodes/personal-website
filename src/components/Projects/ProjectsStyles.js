@@ -88,11 +88,11 @@ export const ExternalLinks = styled.a`
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: darkgoldenrod;
+  background: goldenrod;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: goldenrod;
+    background: darkgoldenrod;
   }
 `;
 
