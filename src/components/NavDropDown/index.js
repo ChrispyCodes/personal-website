@@ -40,8 +40,8 @@ const NavDropDown = (props) => (
         <FaLocationArrow />
       </DropDownIcon>
       <DropDownTextContainer>
-        <DropDownItemTitle>Address</DropDownItemTitle>
-        <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
+        <DropDownItemTitle></DropDownItemTitle>
+        <DropDownItemDesc></DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
   </DropDownContainer>

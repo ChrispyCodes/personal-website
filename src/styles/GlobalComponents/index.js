@@ -179,7 +179,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 80px")};
   color: #fff;
-  background: ${({ alt }) => (alt ? "darkgoldenrod" : "darkgoldenrod")};
+  background: ${({ alt }) => (alt ? "goldenrod" : "goldenrod")};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -211,7 +211,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => (alt ? "goldenrod" : "goldenrod")};
+  background: ${({ alt }) => (alt ? "darkgoldenrod" : "darkgoldenrod")};
   //   alt
   //     ? "linear-gradient(270deg, #F46737 0%, goldenrod 100%)"
   //     : "linear-gradient(270deg, #13ADC7 0%, goldenrod 100%)"};
