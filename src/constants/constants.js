@@ -10,7 +10,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Youtube-mp3-converter",
+    title: "Mp3-converter",
     description:
       "Converts youtube url into downloadable mp3 file. Doesn't work for all videos, try a official music video",
     image: "/images/youtube-mp3.png",
