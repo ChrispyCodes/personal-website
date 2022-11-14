@@ -31,8 +31,8 @@ const Header = () => (
             color: "white",
           }}
         >
-          <GiAbstract107 size="3rem" style={{ color: "darkgoldenrod" }} />{" "}
-          <Span>CG</Span>
+          <GiAbstract107 size="5rem" style={{ color: "goldenrod" }} />{" "}
+          <Span>Chrisgo</Span>
         </a>
       </Link>
     </Div1>
