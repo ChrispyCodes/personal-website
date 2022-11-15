@@ -19,6 +19,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import Image from "next/image";
 
 const Projects = () => (
   <Section id="projects">
@@ -29,7 +30,7 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} alt="project picture" />
+            <Image src={image} alt="project picture" width={400} height={200} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
