@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Mp3 Converter",
     description:
-      "Converts youtube url into downloadable mp3 file. Doesn't work for all videos, try a official music video",
+      "Converts youtube url into downloadable mp3 file. Doesn't work for all videos, try a official music video.",
     image: "/images/youtube-mp3.png",
     tags: ["Node.js", "Express"],
     source: "https://github.com/ChrispyCodes/youtube-mp3-converter",
@@ -21,7 +21,8 @@ export const projects = [
   },
   {
     title: "WebRTC App",
-    description: "This is a In this tutorial WebRTC.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "/images/3.jpg",
     tags: ["React", "WebRTC"],
     source: "https://google.com",
@@ -31,7 +32,7 @@ export const projects = [
   {
     title: "Unichat",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://google.com",
