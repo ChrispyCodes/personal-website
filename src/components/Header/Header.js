@@ -31,7 +31,7 @@ const Header = () => (
             color: "white",
           }}
         >
-          <GiAbstract107 size="5rem" style={{ color: "goldenrod" }} />{" "}
+          <GiAbstract107 size="4rem" style={{ color: "goldenrod" }} />{" "}
           <Span>Chrisgo</Span>
         </a>
       </Link>
@@ -54,13 +54,19 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/ChrispyCodes">
+      <SocialIcons
+        href="https://github.com/ChrispyCodes"
+        aria-label="github link"
+      >
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://linkedin.com" aria-label="linkedin link">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/Chrisg0o">
+      <SocialIcons
+        href="https://twitter.com/Chrisg0o"
+        aria-label="twitter link"
+      >
         <AiOutlineTwitter size="3rem" />
       </SocialIcons>
     </Div3>
