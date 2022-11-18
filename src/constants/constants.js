@@ -20,21 +20,21 @@ export const projects = [
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Coming soon",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
+    image: "/images/projects.jpeg",
+    tags: ["React"],
     source: "https://google.com",
     visit: "https://google.com",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Coming soon",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
+    image: "/images/projects.jpeg",
+    tags: ["React", "Firebase"],
     source: "https://google.com",
     visit: "https://google.com",
     id: 3,
@@ -42,11 +42,14 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: "Started learning to code" },
+  {
+    year: 2018,
+    text: "Started learning to code...seriously, not hello world again",
+  },
   { year: 2019, text: "Hired as a full-stack developer" },
   { year: 2020, text: "Worked as a full-stack developer" },
   { year: 2021, text: "Worked as a full-stack developer" },
-  { year: 2022, text: "Focusing on front-end" },
+  { year: 2022, text: "'blazingly' fast front end dev" },
 ];
 
 export const AccomplishmentsData = [
