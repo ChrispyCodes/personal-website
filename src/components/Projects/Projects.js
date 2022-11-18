@@ -20,6 +20,8 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 import Image from "next/image";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import { SocialIcons } from "../Header/HeaderStyles";
 
 const Projects = () => (
   <Section id="projects">
@@ -45,8 +47,12 @@ const Projects = () => (
             </TagList>
           </div> */}
             <UtilityList>
-              <ExternalLinks href={visit}>Play</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <SocialIcons href={visit}>
+                <AiOutlineLink size="3rem" />
+              </SocialIcons>
+              <SocialIcons href={source}>
+                <AiFillGithub size="3rem" />
+              </SocialIcons>
             </UtilityList>
           </BlogCard>
         )
