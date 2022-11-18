@@ -47,10 +47,10 @@ const Projects = () => (
             </TagList>
           </div> */}
             <UtilityList>
-              <SocialIcons href={visit}>
+              <SocialIcons href={visit} aria-label="project link">
                 <AiOutlineLink size="3rem" />
               </SocialIcons>
-              <SocialIcons href={source}>
+              <SocialIcons href={source} aria-label="github link">
                 <AiFillGithub size="3rem" />
               </SocialIcons>
             </UtilityList>
