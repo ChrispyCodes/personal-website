@@ -82,7 +82,7 @@ const Timeline = () => {
         podcasts, Joey diaz is TREMENDOUS! Also, spending time in nature with my
         aussie is a beautiful thing &#127925; &#127794;
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -149,7 +149,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButton>
+      </CarouselButton> */}
     </Section>
   );
 };
