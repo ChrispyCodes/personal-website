@@ -19,26 +19,26 @@ export const projects = [
     visit: "https://cg-youtubemp3converter.herokuapp.com/",
     id: 1,
   },
-  {
-    title: "Coming soon",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/projects.jpeg",
-    tags: ["React"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Coming soon",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/images/projects.jpeg",
-    tags: ["React", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
-  },
+  // {
+  //   title: "Coming soon",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   image: "/images/projects.jpeg",
+  //   tags: ["React"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
+  // {
+  //   title: "Coming soon",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   image: "/images/projects.jpeg",
+  //   tags: ["React", "Firebase"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
 ];
 
 export const TimeLineData = [
