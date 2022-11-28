@@ -19,16 +19,16 @@ export const projects = [
     visit: "https://cg-youtubemp3converter.herokuapp.com/",
     id: 1,
   },
-  // {
-  //   title: "Coming soon",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   image: "/images/projects.jpeg",
-  //   tags: ["React"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 2,
-  // },
+  {
+    title: "Card Details Form",
+    description:
+      "Interactive card details form with custom validation. Built with react and vite.",
+    image: "/images/desktopSln.png",
+    tags: ["React", "Vite"],
+    source: "https://github.com/ChrispyCodes/card-details-form",
+    visit: "https://carddetailsform.vercel.app/",
+    id: 2,
+  },
   // {
   //   title: "Coming soon",
   //   description:
