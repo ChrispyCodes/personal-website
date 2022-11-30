@@ -18,8 +18,15 @@ export const LeftSection = styled.div`
   }
 `;
 //#0066ff 0%,#ffda2c
-export const span = styled.div`
-  span {
-    color: #9cc9e3;
-  }
+export const SpanText = styled.span`
+  background-image: linear-gradient(
+    45deg,
+    rgb(124, 58, 237),
+    #9cc9e3 30%,
+    white 60%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400%;
+  background-position: 0%;
 `;
