@@ -22,7 +22,7 @@ export const SpanText = styled.span`
   background-image: linear-gradient(
     45deg,
     rgb(124, 58, 237),
-    #9cc9e3 30%,
+    goldenrod 30%,
     white 60%
   );
   -webkit-background-clip: text;

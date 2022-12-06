@@ -179,7 +179,16 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form ? "0" : "0 0 80px")};
   color: #fff;
-  background: ${({ alt }) => (alt ? "goldenrod" : "goldenrod")};
+  background-image: linear-gradient(
+    45deg,
+    rgb(124, 58, 237),
+    goldenrod 15%,
+    white 60%
+  );
+  -webkit-background-clip: button;
+  -webkit-text-fill-color: solid transparent;
+  background-size: 400%;
+  background-position: 0%;
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -211,10 +220,16 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => (alt ? "darkgoldenrod" : "darkgoldenrod")};
-  //   alt
-  //     ? "linear-gradient(270deg, #F46737 0%, goldenrod 100%)"
-  //     : "linear-gradient(270deg, #13ADC7 0%, goldenrod 100%)"};
+  background-image: linear-gradient(
+    45deg,
+    rgb(124, 58, 237),
+    goldenrod 30%,
+    white 60%
+  );
+  -webkit-background-clip: button;
+  -webkit-text-fill-color: solid transparent;
+  background-size: 400%;
+  background-position: 0%;
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
