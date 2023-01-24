@@ -13,7 +13,7 @@ export const projects = [
     title: "Issue Tracker",
     description:
       "Issue tracker built with .net core razor pages. I used .net identity for authentication/authorization and entity framework for the sql data access. User can CRUD issues/projects and be assigned to issues.",
-    image: "/images/issue-tracker.png",
+    image: "/images/issue-tracker.PNG",
     tags: [".net", "javascript", "razor pages"],
     source: "https://github.com/ChrispyCodes/issue-tracker",
     visit: "https://issuetracky.azurewebsites.net/",
