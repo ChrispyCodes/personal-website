@@ -10,13 +10,13 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Mp3 Converter",
+    title: "Issue Tracker",
     description:
-      "Converts youtube url into downloadable mp3 file. Doesn't work for all videos, try a official music video.",
-    image: "/images/youtube-mp3.png",
-    tags: ["Node.js", "Express"],
-    source: "https://github.com/ChrispyCodes/youtube-mp3-converter",
-    visit: "https://cg-youtubemp3converter.herokuapp.com/",
+      "Issue tracker built with .net core razor pages. I used .net identity for authentication/authorization and entity framework for the sql data access. User can CRUD issues/projects and be assigned to issues.",
+    image: "/images/issue-tracker.png",
+    tags: [".net", "javascript", "razor pages"],
+    source: "https://github.com/ChrispyCodes/issue-tracker",
+    visit: "https://issuetracky.azurewebsites.net/",
     id: 1,
   },
   {
