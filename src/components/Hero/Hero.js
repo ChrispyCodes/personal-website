@@ -17,9 +17,9 @@ const Hero = () => (
       <SectionText>
         A Software Engineer that likes to build things with modern tools.
       </SectionText>
-      <Button target="_blank" onClick={() => (window.location = "/Resume.pdf")}>
+      {/* <Button target="_blank" onClick={() => (window.location = "/Resume.pdf")}>
         Resume
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
