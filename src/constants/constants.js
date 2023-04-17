@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "Youtube Clone",
-    description:
-      "Using React, MUI, and rapidAPI I built a youtube clone with searching & filtering, a channel page, and a video player.",
-    image: "/images/footube.png",
-    tags: ["React", "MUI", "rapidAPI"],
-    source: "https://github.com/ChrispyCodes/footube_youtube_clone",
-    visit: "https://footube.netlify.app/",
-    id: 0,
-  },
-  {
     title: "Issue Tracker",
     description:
       "Issue tracker built with .net core razor pages. I used .net identity for authentication/authorization and entity framework for the sql data access. User can CRUD issues/projects and be assigned to issues.",
@@ -17,7 +7,27 @@ export const projects = [
     tags: [".net", "javascript", "razor pages"],
     source: "https://github.com/ChrispyCodes/issue-tracker",
     visit: "https://issuetracky.azurewebsites.net/",
+    id: 0,
+  },
+  {
+    title: "Youtube Clone",
+    description:
+      "Using React, MUI, and rapidAPI I built a youtube clone with searching & filtering, a channel page, and a video player.",
+    image: "/images/footube.png",
+    tags: ["React", "MUI", "rapidAPI"],
+    source: "https://github.com/ChrispyCodes/footube_youtube_clone",
+    visit: "https://footube.netlify.app/",
     id: 1,
+  },
+  {
+    title:
+      ".NET Core Microservices with Docker and CI/CD pipeline with Jenkins",
+    description: "",
+    image: "/images/TailwindTemp.PNG",
+    tags: ["React", "Firebase"],
+    source: "https://github.com/ChrispyCodes/netcore-microservices",
+    visit: "https://google.com",
+    id: 2,
   },
   {
     title: "Card Details Form",
@@ -29,16 +39,24 @@ export const projects = [
     visit: "https://carddetailsform.vercel.app/",
     id: 2,
   },
-  // {
-  //   title: "Coming soon",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   image: "/images/projects.jpeg",
-  //   tags: ["React", "Firebase"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 3,
-  // },
+  {
+    title: "Clean Architecture REST API",
+    description: "",
+    image: "/images/projects.jpeg",
+    tags: ["React", "Firebase"],
+    source: "https://github.com/ChrispyCodes/CleanArchitectureApi",
+    visit: "https://google.com",
+    id: 3,
+  },
+  {
+    title: "Tailwind CSS landing page",
+    description: "",
+    image: "/images/TailwindTemp.PNG",
+    tags: ["React", "Firebase"],
+    source: "https://github.com/ChrispyCodes/tailwind-static-site",
+    visit: "https://google.com",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
