@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Issue Tracker",
+    title: "Issue Tracking System",
     description:
       "Issue tracker built with .net core razor pages. I used .net identity for authentication/authorization and entity framework for the sql data access. User can CRUD issues/projects and be assigned to issues.",
     image: "/images/issue-tracker.PNG",
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "Clean Architecture REST API",
     description: "",
-    image: "/images/projects.jpeg",
+    image: "/images/TailwindTemp.PNG",
     tags: ["React", "Firebase"],
     source: "https://github.com/ChrispyCodes/CleanArchitectureApi",
     visit: "https://google.com",

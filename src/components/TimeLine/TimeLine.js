@@ -24,7 +24,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider />
       <br />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>My Story</SectionTitle>
       <SectionText>
         I consider myself a creative person and thats why I like coding, because
         anything that I have an idea for I can create it. I started coding after
@@ -48,12 +48,10 @@ const Timeline = () => {
         make a positive impact in the world.
       </SectionText>
       <SectionText>
-        Why do I code now? My aim is to make a positive impact in peoples
-        lives...building software that adds a bit of joy to life rather than
-        robbing you of it. Outside of coding, I am passionate about music. I'm a
-        huge fan of chillstep, it's timeless. I listen to loads of comedy
-        podcasts, Joey diaz is TREMENDOUS! Also, spending time in nature with my
-        aussie is a beautiful thing &#127925; &#127794;
+        Outside of coding, I am passionate about music. I'm a huge fan of
+        chillstep, it's timeless. I listen to loads of comedy podcasts, Joey
+        diaz is TREMENDOUS! Also, spending time in nature with my aussie is a
+        beautiful thing &#127925; &#127794;
       </SectionText>
     </Section>
   );
