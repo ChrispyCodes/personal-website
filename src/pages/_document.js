@@ -31,16 +31,24 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-GB">
         <Head>
-          <title>Christophers Portfolio</title>
-          {/* <meta name="author" content="Christopher Gaynor"/>
-  <meta name="description" content=" Development Portfolio"/>
-  <meta property="og:title" content="Christophers Portfolio"/>
-  <meta property="og:description" content="portfolio"/>
-  <meta property="og:image" content="/some-image.png"/>
-  <meta property="og:url" content="/this-page.html"/>
-  <meta property="og:site_name" content="Your Site Name"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:alt" content="image description"/> */}
+          <meta name="author" content="Christopher Gaynor" />
+          <meta name="description" content="Chris' Portfolio Site" />
+          <meta property="og:title" content="Chris' Portfolio" />
+          <meta
+            property="og:description"
+            content="Software developer portfolio to showcase skills & experience"
+          />
+          <meta
+            property="og:image"
+            content="/public/images/PortfolioLanding.png"
+          />
+          <meta property="og:url" content="/chrisgo.me" />
+          <meta property="og:site_name" content="Chris' Portfolio" />
+          <meta
+            name="twitter:card"
+            content="/public/images/PortfolioLanding.png"
+          />
+          <meta name="twitter:image:alt" content="Chris' Portforlio Site" />
           <link
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"

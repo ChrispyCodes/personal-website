@@ -10,13 +10,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Youtube Clone",
-    description:
-      "Using React, MUI, and rapidAPI I built a youtube clone with searching & filtering, a channel page, and a video player.",
-    image: "/images/footube.png",
-    tags: ["React", "MUI", "rapidAPI"],
-    source: "https://github.com/ChrispyCodes/footube_youtube_clone",
-    visit: "https://footube.netlify.app/",
+    title: "Clean Architecture REST API",
+    description: "",
+    image: "/images/REST-API.png",
+    tags: ["React", "Firebase"],
+    source: "https://github.com/ChrispyCodes/CleanArchitectureApi",
+    visit: "https://google.com",
     id: 1,
   },
   {
@@ -30,6 +29,16 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Youtube Clone",
+    description:
+      "Using React, MUI, and rapidAPI I built a youtube clone with searching & filtering, a channel page, and a video player.",
+    image: "/images/footube.png",
+    tags: ["React", "MUI", "rapidAPI"],
+    source: "https://github.com/ChrispyCodes/footube_youtube_clone",
+    visit: "https://footube.netlify.app/",
+    id: 3,
+  },
+  {
     title: "Card Details Form",
     description:
       "Interactive card details form with custom validation. Built with react and vite.",
@@ -37,16 +46,7 @@ export const projects = [
     tags: ["React", "Vite"],
     source: "https://github.com/ChrispyCodes/card-details-form",
     visit: "https://carddetailsform.vercel.app/",
-    id: 2,
-  },
-  {
-    title: "Clean Architecture REST API",
-    description: "",
-    image: "/images/REST-API.png",
-    tags: ["React", "Firebase"],
-    source: "https://github.com/ChrispyCodes/CleanArchitectureApi",
-    visit: "https://google.com",
-    id: 3,
+    id: 4,
   },
   {
     title: "Tailwind CSS landing page",
@@ -55,7 +55,7 @@ export const projects = [
     tags: ["React", "Firebase"],
     source: "https://github.com/ChrispyCodes/tailwind-static-site",
     visit: "https://google.com",
-    id: 4,
+    id: 5,
   },
 ];
 
