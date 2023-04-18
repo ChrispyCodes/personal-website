@@ -23,7 +23,7 @@ export const projects = [
     title:
       ".NET Core Microservices with Docker and CI/CD pipeline with Jenkins",
     description: "",
-    image: "/images/TailwindTemp.PNG",
+    image: "/images/computer.jpg",
     tags: ["React", "Firebase"],
     source: "https://github.com/ChrispyCodes/netcore-microservices",
     visit: "https://google.com",
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "Clean Architecture REST API",
     description: "",
-    image: "/images/TailwindTemp.PNG",
+    image: "/images/REST-API.png",
     tags: ["React", "Firebase"],
     source: "https://github.com/ChrispyCodes/CleanArchitectureApi",
     visit: "https://google.com",
