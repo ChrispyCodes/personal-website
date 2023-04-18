@@ -49,7 +49,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            styling libraries <br />
+            Styling libraries <br />
             like bootstrap, material-ui, and tailwindCSS
           </ListParagraph>
         </ListContainer>
