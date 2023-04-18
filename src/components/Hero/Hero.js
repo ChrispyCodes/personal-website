@@ -15,8 +15,8 @@ const Hero = () => (
         Hey, <br /> I'm <SpanText>Chris</SpanText> &#9996;
       </SectionTitle>
       <SectionText>
-        Passionate developer building scalable software solutions for tomorrow's
-        challenges
+        Full Stack developer with a passion for creating elegant solutions that
+        not only solve complex problems, but also improve people's lives
       </SectionText>
       {/* <Button target="_blank" onClick={() => (window.location = "/Resume.pdf")}>
         Resume

@@ -40,7 +40,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Vast Experience with <br />
-            C# and SQL
+            C#, .Net and SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
